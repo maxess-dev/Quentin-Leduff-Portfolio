@@ -44,7 +44,7 @@ h2{
 
 body{
   height: 100vh;
-  background:black;
+  background-color:black;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
