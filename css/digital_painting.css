@@ -1,0 +1,143 @@
+/* ALL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: "Larke";
+  font-size: 3.4em;
+  letter-spacing: 10px;
+  font-weight: 300;
+  color: #FFF;
+}
+
+h2{
+  font-family: "SIMPLIFICA";
+  font-size: 1.3em;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  color: #FFF;
+}
+
+h3{
+  font-family: "Larke";
+  font-size: 2.4em;
+  letter-spacing: 5px;
+  font-weight: 500;
+  color: #FFF;
+}
+
+h6{
+  font-family: "SIMPLIFICA";
+  font-size: 1.4em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: #FFF;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+ul li{
+  margin-top: 20px;
+  list-style-type: none;
+  font-family: "SIMPLIFICA";
+  font-size: 1.2em;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  line-height: 15px;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+/* MENUS  */
+
+/* BIOGRAPHY*/
+
+body{
+  height: 100vh;
+  background: black;
+}
+
+nav{
+  float: left;
+  width: 100%;
+}
+
+#container{
+  width: 100%;
+  height: 140px;
+}
+
+.title{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title h3{
+  font-family: "Larke";
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #FFF;
+}
+
+.title h2{
+  margin-top: 10px;
+  font-family: "SIMPLIFICA";
+  font-size: 1.6em;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+nav ul{
+  margin-top: -70px;
+  margin-right: 280px;
+  float: right;
+}
+
+nav ul li{
+  font-family: "SIMPLIFICA";
+  font-size: 1.3em;
+  letter-spacing: 10px;
+  color: #FFF;
+
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+
+  display: inline-block;
+  border: 1px solid black;
+  border-color: #FFF;
+}
+
+#image_container{
+  width: 100%;
+}
+
+.img{
+  text-align: center;
+}
+
+.img img{
+  margin-top: 30px;
+  width: 22%;
+}
+
+.sub{
+  text-align: center;
+}
+
+.sub h6{
+  margin-top: 20px;
+  opacity: 0.8;
+}

@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "SIMPLIFICA";
+  src: url("../fonts/SIMPLIFICA.ttf");
+}
+
+@font-face {
+  font-family: "Larke";
+  src: url("../fonts/Larke.ttf");
+}
+
+/* ANIMATION */
+
+@keyframes fade {
+
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes scroll {
+
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.7;
+  }
+}
+/* ALL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+  font-family: "Larke";
+  font-size: 2.8em;
+  letter-spacing: 6px;
+  font-weight: 300;
+  color: #FFF;
+}
+
+h2{
+  font-family: "SIMPLIFICA";
+  font-size: 1.2em;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  color: #FFF;
+}
+
+h3{
+  font-family: "Larke";
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  font-weight: 300;
+  color: #FFF;
+}
+
+h4{
+  font-family: "SIMPLIFICA";
+  font-size: 1.2em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: #FFF;
+}
+
+h6{
+  font-family: "Larke";
+  font-size: 1.5em;
+  letter-spacing: 10px;
+  font-weight: 300;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+p{
+  font-family: "SIMPLIFICA";
+  font-size: 1.3em;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  color: #FFF;
+}
+
+img{
+ width: 300px;
+}
+
+/* BIOGRAPHY*/
+
+body{
+  background: black;
+}
+
+nav{
+  float: left;
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title h3{
+  font-family: "Larke";
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #FFF;
+}
+
+.title h2{
+  margin-top: 5px;
+  font-family: "SIMPLIFICA";
+  font-size: 1.6em;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+nav ul{
+  margin-top: -70px;
+  margin-right: 280px;
+  float: right;
+}
+
+nav ul li{
+  font-family: "SIMPLIFICA";
+  font-size: 1.3em;
+  letter-spacing: 10px;
+  color: #FFF;
+
+  margin-left: 50px;
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-left: 18px;
+
+  display: inline-block;
+  border: 1px solid black;
+  border-color: #FFF;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.grid_container{
+  float: left;
+  height: 80vh;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.first_grid{
+  height: 50%;
+  display: flex;
+}
+
+.second_grid{
+  height: 50%;
+  display: flex;
+}
+
+.aston{
+  margin: auto;
+  text-align: center;
+  flex: 1;
+}
+
+.audi{
+  margin: auto;
+  text-align: center;
+
+}
+
+.helico{
+  margin: auto;
+  text-align: center;
+  flex: 1;
+}
+
+.lambo{
+  margin: auto;
+  text-align: center;
+  padding-left: 350px;
+}
+
+.sub{
+  margin: auto;
+  text-align: center;
+  padding-right: 400px;
+}
